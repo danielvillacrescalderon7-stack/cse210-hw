@@ -16,7 +16,7 @@ class Program
             while(guess != magicNumber)
             {
                 Console.Write("What is your guess?");
-                guess = int.Parse(Console.ReadLine());
+                guess = int.Parse(Console.ReadLine());//This line was deleted due a mistake, adding this comment to push it again.
                 guesses++;
 
                 if (guess<magicNumber)
@@ -33,7 +33,7 @@ class Program
                 }
             }
             Console.WriteLine("Number of guesses" + guesses);
-            Console.WriteLine("Do you want to continue?");
+            Console.WriteLine("Do you want to continue guessing?");
             playAgain = Console.ReadLine();
         }
     }
