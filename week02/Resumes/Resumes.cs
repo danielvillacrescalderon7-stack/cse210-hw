@@ -1,15 +1,14 @@
+//Resume cs
+
 using System;
 using System.Collections.Generic;
 
-public class Resume
+class Resume
 {
-    //User Name
     public string _name = "";
 
-    // List of Jobs
     public List<Job> _jobs = new List<Job>();
 
-    // Show the resume
     public void Display()
     {
         Console.WriteLine($"Name: {_name}");
